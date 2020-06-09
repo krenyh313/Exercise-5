@@ -5,7 +5,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="includes/css/style.css"> -->
     <link rel="stylesheet" href="{% static 'includes/css/style.css'%}">
 
     <!-- Google Fonts: -->
@@ -19,7 +18,6 @@
     <section class="wrapper">
         <nav>
             <ul>
-                <!-- <li><a href="index.html/"> -->
                 <li><a href="{% url 'home' %}">
                         <svg viewBox="0 0 79.999773 215.94374" height="240mm" width="44mm">
                             <g transform="translate(-948.36192,-375.98454)" id="layer1">
@@ -330,9 +328,9 @@
             <a href="{% url 'home' %}" id="logo"></a>
             <ul>
                 <li><a class="mail" href="{% url 'contact' %}"></a></li>
-                <li><a class="facebook" href="https://www.facebook.com/keren.halpert"></a></li>
-                <li><a class="github" href="https://github.com/krenyh313?tab=repositories"></a></li>
-                <li><a class="linkedin" href="https://www.linkedin.com/in/keren-halpert-3a50341b0/"></a></li>
+                <li><a class="facebook" target="_blank" href="https://www.facebook.com/keren.halpert"></a></li>
+                <li><a class="github" target="_blank" href="https://github.com/krenyh313?tab=repositories"></a></li>
+                <li><a class="linkedin" target="_blank" href="https://www.linkedin.com/in/keren-halpert-3a50341b0/"></a></li>
             </ul>
         </div>
     </footer>

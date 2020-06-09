@@ -8,7 +8,6 @@
     <!-- Google Fonts: -->
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
 
-    <!-- <link rel="stylesheet" href="includes/css/style.css"> -->
     <link rel="stylesheet" href="{% static 'includes/css/style.css'%}">
     <link rel="icon" href="{% static 'portfolio/logo.ico' %}">
     <title>Keren Halpert</title>
@@ -353,7 +352,7 @@
             <p>© 2020 Keren Halpert</p>
             <a href="{% url 'home' %}" id="logo"></a>
             <ul>
-                <li><a class="mail" target="_blank" href="{% url 'contact' %}"></a></li>
+                <li><a class="mail" href="{% url 'contact' %}"></a></li>
                 <li><a class="facebook" target="_blank"  href="https://www.facebook.com/keren.halpert"></a></li>
                 <li><a class="github" target="_blank"  href="https://github.com/krenyh313?tab=repositories"></a></li>
                 <li><a class="linkedin" target="_blank"  href="https://www.linkedin.com/in/keren-halpert-3a50341b0/"></a></li>
