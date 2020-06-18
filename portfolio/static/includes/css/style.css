@@ -115,7 +115,7 @@ form textarea {
     padding-left: 12px;
     font-family: 'Rock Salt', cursive;
     font-size: 18px;
-    line-height: 22px;
+    /* line-height: 22px; */
     transform: rotate(4deg);
 }
 

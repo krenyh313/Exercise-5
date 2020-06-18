@@ -25,7 +25,7 @@ urlpatterns = [
     path('contact.html/', views.contact, name='contact'),
     path('about.html/', views.about, name='about'),
     path('projects.html/', views.projects, name='projects'),
-    path('contact_form.php/', views.contact_form, name='contact_form'),
+    path('contact_form.html/', views.contact_form, name='contact_form'),
     path('admin/', admin.site.urls),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
